@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 /**
  * 
- * @author Manisha Gurav on 03/08/2018
+ * @author Manisha Gurav created on 03/08/2018
  *
  */
 
@@ -30,12 +30,7 @@ public class Runner {
 		frame.add(panel);
 		frame.setSize(350, 350);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		/*String currency[]={"Doller","INR","yen"};        
-	    cb=new JComboBox(currency);    
-	    cb.setBounds(10, 20,20,25);    
-	    frame.add(cb);*/
-	    
+			    
 		label=new JLabel("Enter Value");
 		label.setBounds(10, 20,80, 25);
 		panel.add(label);
