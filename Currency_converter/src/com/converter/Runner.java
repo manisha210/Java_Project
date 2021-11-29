@@ -23,6 +23,8 @@ public class Runner {
 	private static JButton button;
 	private static JComboBox from,to;
 	public static void main(String[] args) {
+		
+		//creating frame
 			
 		frame=new JFrame("Currency Converter");
 		panel=new JPanel();
